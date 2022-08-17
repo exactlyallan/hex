@@ -20,7 +20,7 @@
 	</head>
 
 	<body>
-		<img id="header" src="./hex/DFS-mock-header.png">
+		<img id="header" src="/hex/files/DFS-mock-header.png">
 		<div id="three"></div>
 		<!-- Import maps polyfill -->
 		<!-- Remove this when import maps will be widely supported -->
@@ -29,16 +29,16 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "./hex/three.module.js"
+					"three": "/hex/files/three.module.js"
 				}
 			}
 		</script>
 		<script type="module">
 
 			import * as THREE from 'three';
-			import { MapControls } from './hex/OrbitControls.js';
-			import { FontLoader } from './hex/FontLoader.js';
-			import * as BufferGeometryUtil from './hex/BufferGeometryUtils.js'
+			import { MapControls } from '/hex/files/OrbitControls.js';
+			import { FontLoader } from '/hex/files/FontLoader.js';
+			import * as BufferGeometryUtil from '/hex/files/BufferGeometryUtils.js'
 
 			let camera, controls, scene, renderer;
 			const frustumSize = 500;
