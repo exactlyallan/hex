@@ -29,16 +29,16 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "/hex/three.module.js"
+					"three": "./hex/three.module.js"
 				}
 			}
 		</script>
 		<script type="module">
 
 			import * as THREE from 'three';
-			import { MapControls } from '/hex/OrbitControls.js';
-			import { FontLoader } from '/hex/FontLoader.js';
-			import * as BufferGeometryUtil from '/hex/BufferGeometryUtils.js'
+			import { MapControls } from './hex/OrbitControls.js';
+			import { FontLoader } from './hex/FontLoader.js';
+			import * as BufferGeometryUtil from './hex/BufferGeometryUtils.js'
 
 			let camera, controls, scene, renderer;
 			const frustumSize = 500;
