@@ -29,16 +29,16 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://unpkg.com/three@0.143.0/build/three.module.js"
+					"three": "/three.module.js"
 				}
 			}
 		</script>
 		<script type="module">
 
 			import * as THREE from 'three';
-			import { MapControls } from 'https://unpkg.com/three@0.143.0/examples/jsm/controls/OrbitControls.js';
-			import { FontLoader } from 'https://unpkg.com/three@0.143.0/examples/jsm/loaders/FontLoader.js';
-			import * as BufferGeometryUtil from 'https://unpkg.com/three@0.143.0/examples/jsm/utils/BufferGeometryUtils.js'
+			import { MapControls } from '/OrbitControls.js';
+			import { FontLoader } from '/FontLoader.js';
+			import * as BufferGeometryUtil from '/BufferGeometryUtils.js'
 
 			let camera, controls, scene, renderer;
 			const frustumSize = 500;
